@@ -21,7 +21,7 @@ const commentController = {
                 res.json(dbPizzaData);
             })
             .catch(err => res.json(err));
-    }
+    },
 
     // remove comment
     removeComment({ params }, res) {
